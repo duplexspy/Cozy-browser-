@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "SF Pro Text", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+}
+
+:root {
+  --accent: #78716c;
+  --bg-main: #f5f5f4;
+  --glass-bg: rgba(255, 255, 255, 0.5);
+  --text-main: #1c1917;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  user-select: none;
+}
+
+/* Hide scrollbars for cleaner aesthetic */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+iframe {
+  border: none;
+}
+
+form {
+  margin: 0;
+}
